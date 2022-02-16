@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "worker_on_vacations",
+  "info": {
+    "singularName": "worker-on-vacation",
+    "pluralName": "worker-on-vacations",
+    "displayName": "worker-on-vacation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "work_mail": {
+      "type": "email"
+    },
+    "worker_name": {
+      "type": "string"
+    },
+    "work_team": {
+      "type": "string"
+    },
+    "start_date_vacation": {
+      "type": "date"
+    },
+    "days_of_vacation": {
+      "type": "integer"
+    }
+  }
+}

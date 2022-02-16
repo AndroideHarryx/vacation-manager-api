@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "awaiting_requests",
+  "info": {
+    "singularName": "awaiting-request",
+    "pluralName": "awaiting-requests",
+    "displayName": "awaiting-request"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "worker_name": {
+      "type": "string"
+    },
+    "work_mail": {
+      "type": "email"
+    },
+    "start_date": {
+      "type": "date"
+    }
+  }
+}
