@@ -33,17 +33,13 @@ const app = initializeApp({
      //cron.schedule("* * * * *", () => {
         //se ejecuta cada 1 min
         //todo
-        console.log("entra");
-
         admin.messaging().send(message)
         .then((response) => {
-        // Response is a message ID string.
-        console.log('Successfully sent message:', response);
+            console.log('Successfully sent message:', response);
         })
         .catch((error) => {
-        console.log('Error sending message:', error);
+            console.log('Error sending message:', error);
         });
-
       //});
 
      module.exports.admin = admin
