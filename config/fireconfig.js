@@ -30,7 +30,7 @@ const app = initializeApp({
      // registration token.
      
 
-     cron.schedule("* * * * *", () => {
+     //cron.schedule("* * * * *", () => {
         //se ejecuta cada 1 min
         //todo
         console.log("entra");
@@ -44,6 +44,6 @@ const app = initializeApp({
         console.log('Error sending message:', error);
         });
 
-      });
+      //});
 
      module.exports.admin = admin
