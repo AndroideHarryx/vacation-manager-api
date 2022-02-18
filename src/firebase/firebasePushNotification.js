@@ -2,6 +2,7 @@ const { admin } = require("./firebaseconfig");
 
 function sendNotification(token, title, body) {
 
+  console.log("si");
     const message = {
         notification: {
           title: 'push desde web',
