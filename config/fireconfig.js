@@ -1,10 +1,10 @@
-const { initializeApp, applicationDefault } = require("firebase-admin/app");
+/*const { initializeApp, applicationDefault } = require("firebase-admin/app");
 
 const credential = require("./credentials.json")
 
 const admin = require('firebase-admin');
 
-const cron = require("node-cron");
+//const cron = require("node-cron");
 
 const app = initializeApp({
     credential: admin.credential.cert(credential),
@@ -15,8 +15,7 @@ const app = initializeApp({
 //const { credential } = require("firebase-admin");
 
    // This registration token comes from the client FCM SDKs.
-   const registrationToken = 'f1tg5jvcSoO-nF2u9ZjWdy:APA91bGOVFxmd9Ua63lV9xI3pGrfQjqFSmngTxbMMFnXnrQDgp5CoztbyccXauxtfiQO4_s5_W06lQQwSfdo0g3INSdyk6Ze-w_zue9j9wC7MdlNuI01ZAF3Eyxrq30NF7LOD-RtEFvx';
-   console.log("entra en conexionfire");
+   /*const registrationToken = 'f1tg5jvcSoO-nF2u9ZjWdy:APA91bGOVFxmd9Ua63lV9xI3pGrfQjqFSmngTxbMMFnXnrQDgp5CoztbyccXauxtfiQO4_s5_W06lQQwSfdo0g3INSdyk6Ze-w_zue9j9wC7MdlNuI01ZAF3Eyxrq30NF7LOD-RtEFvx';
    
      const message = {
        notification: {
@@ -42,4 +41,4 @@ const app = initializeApp({
         });
       //});
 
-     module.exports.admin = admin
+     module.exports.admin = admin*/
