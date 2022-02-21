@@ -14,7 +14,7 @@ function sendNotification(token, title, body) {
       title: title,
       body: body
     },
-    token: token
+    topic: 'vacation'
   };
 
   admin.messaging().send(message)
