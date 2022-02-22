@@ -6,7 +6,7 @@ function consultWorkers() {
 }
 
 
-function sendNotification(token, title, body) {
+function sendNotification(title, body) {
 
   console.log("si");
   const message = {

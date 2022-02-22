@@ -4,7 +4,8 @@
   "info": {
     "singularName": "workers-info",
     "pluralName": "workers-inf",
-    "displayName": "workers_info"
+    "displayName": "workers_info",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,11 +18,11 @@
     "work_team": {
       "type": "string"
     },
-    "start_date": {
-      "type": "date"
-    },
     "work_mail": {
       "type": "email"
+    },
+    "start_date": {
+      "type": "string"
     }
   }
 }
