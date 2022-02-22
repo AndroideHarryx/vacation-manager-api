@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "vacation-manager-fbnoti",
+  "private_key_id": "d66cf79968425174f1595ca24f41698cd0f38047",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCywrBt+b9lB/N4\nhyJ5oHBVPb6ex4X8EubkHykg9UF96wGK34Sz1e9F8GsSsCI46dL7osU/R9IGWvmk\nA+JrHOUrfXBiFDZmvysrMrByb6otWjJ0C403omFIENWljz+17oFHovfFTjX6vpwJ\nIhv0HUj3ahln/qtqvU7aBr3dT+z0P3h7lpsGHxghxZCcSfNsgjVe65r3TEBrZpPh\naPWdhU0RXmoMW9EsVrcVyfoz3cNkfdJwspYkiT2JEcEObXzZ+XFJCiMddlR5SCpV\niudCRnQMoGHIOyFuFLbk6y9+ccFq7pp6+rNTj2wJBZcQKY2wTkUtHcTe3P5aQovG\n0Cy5ZM/pAgMBAAECggEATV/l3ARhKsrxQLdFXd3rIYpTSwjT3tMTq6QtOj3ONkGV\nblXna6vrIJu6zOD+PyI+l3rR490jdGrGaY7g3zonm9Z04Y8cKQcQGWecZjwdLfo/\nomkpm+4mK3pV7458pjPxM1+/3WBIDxuYEH/6F4Thg24iRxg9fDsquUZ3wiaJSwLA\nbTLWTHT7tQiTN8Ss4zgrpfOzMPcOVhzupxaA87MFye2O8S8/KvtAmsk4RrEU1FPe\nJABalrz+mm/G6FNdo2q1QsjLbciDicr/AMdLZ3ZEBVH/ISHHe0TOEgZ7fWpplZdP\nnTA9QvXGUhdN/xrX3J1jnZbunZ6OER4mqsCzRefDvQKBgQDlm8fVYSXh/Hp2PDTH\nTxpomyG7NLPvUQb9orTbP1AQ9T3oQyBDJfP9o7JXT/acXIMPxet/9oXcWcstYzXo\n/ciDAWTwOWCKlOxky5fcmk2+L/SUwyLe7T2mi/i0cNHvDRfq0SlzqRVd4SflcZ5j\niA2m2ZZxDa3KgBtEtl+fwwXeywKBgQDHTrVRej1WJYsjnQbO7Ze/pFgEzxweMaLk\n7hOcE4nz/GcJAOdMV5Efmnzmgxx3BXJEwemHMZBJRAK+u685xREqzZ+jQnuOSn5m\nl+hfeKQAXRKRkJs+8nmTRLfX6G9XfOuRM28zomZDCnnxx8KhRwYgzcChr2dkcYL1\nzH/WiMRhmwKBgQCJ7PI1s43WGpxVugTaVSJABDBXDGmqMLpKUhriOT4Xcbomc2xF\n6d6PVm4jFN3HP6tbJkE5NRVkMGxkb1xLAWgZihTgWRctKBh40/P9iJN608PQOQgR\nceG+0gYsHjl9qBfd7pc/6ynyovYcVgwXLftFZx9/+f+TzTCULhlzFuvH0QKBgQCr\nUFAyNKw8PBEZD4QmobrqE01E9PDqUyf9N1bLtU/C1JWL+6bUzAAF9jidutzgwWGz\nECq29jdbgoYJhDHdqjJTZGNvZVnmuMllTfWC+qOdXGL1lCKdPLabi1mq0DPEM7AY\nIunWrCTSQ1MGK/pzviTaVYDaeXaZs6gptxm7QdvrOQKBgA3F69JVdo7h7nPWmiTz\n67Zxxw+TJFcBbe24B06mPn4n4wRDhV8V8Z0Uy9tVouKTMLOQgN0TXsq6mm873gjs\nOl5EMn+xkit8Oi73Q7Sf+67qIkiHn1I9bFMM8ZuGZ5p0qM0ugz4fQs8HPLsH2I59\nh81I0GB5muW8fAqi8LgNRKJ8\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-awy76@vacation-manager-fbnoti.iam.gserviceaccount.com",
+  "client_id": "117667249710321459852",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-awy76%40vacation-manager-fbnoti.iam.gserviceaccount.com"
+}
