@@ -11,6 +11,7 @@ function analizeWorker(worker) {
 
     console.log(antiguedad + ' >= 1');
     if (antiguedad >= '1' && antiguedad != 'I') {
+      
 
       sendNotification(userTable[i].token_app, "Buenos dias", "hay compañeros con derecho a vacaciones");
 
