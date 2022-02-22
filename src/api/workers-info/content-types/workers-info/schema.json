@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workers_inf",
+  "info": {
+    "singularName": "workers-info",
+    "pluralName": "workers-inf",
+    "displayName": "workers_info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "worker_name": {
+      "type": "string"
+    },
+    "work_team": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "work_mail": {
+      "type": "email"
+    }
+  }
+}

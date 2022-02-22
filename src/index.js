@@ -1,7 +1,7 @@
 'use strict';
 
 const { sendNotification } = require("./firebase/firebasePushNotification");
-const { findCustom } = require('./api/worker/findworker');
+const { findCustom } = require('./api/workers-info/findworker');
 const { analizeWorker } = require('./logic');
 
 module.exports = {
