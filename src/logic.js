@@ -2,8 +2,6 @@ const moment = require("moment");
 const { findUser } = require("./api/users/finduser");
 const { sendNotification } = require("./firebase/firebasePushNotification");
 
-//var token = 'f1tg5jvcSoO-nF2u9ZjWdy:APA91bGOVFxmd9Ua63lV9xI3pGrfQjqFSmngTxbMMFnXnrQDgp5CoztbyccXauxtfiQO4_s5_W06lQQwSfdo0g3INSdyk6Ze-w_zue9j9wC7MdlNuI01ZAF3Eyxrq30NF7LOD-RtEFvx';
-
 function analizeWorker(worker) {
   console.log(worker);
 
@@ -14,22 +12,7 @@ function analizeWorker(worker) {
     console.log(antiguedad + ' >= 1');
     if (antiguedad >= '1' && antiguedad != 'I') {
 
-      findUser()
-        .then((userTable) => {
-
-          for (let i = 0; i < userTable.length; i++) {
-
-            console.log(
-              "username: " + userTable[i].username +
-              "\ntoken app: " + userTable[i].token_app
-            )
-          }
-          sendNotification(userTable[i].token_app, "Buenos dias", "hay compañeros con derecho a vacaciones");
-          
-        })
-        .catch((error) => {
-          console.log('algo paso con tu user capo' + error)
-        })
+      sendNotification(userTable[i].token_app, "Buenos dias", "hay compañeros con derecho a vacaciones");
 
     } else {
       console.log("algo paso hina!");
