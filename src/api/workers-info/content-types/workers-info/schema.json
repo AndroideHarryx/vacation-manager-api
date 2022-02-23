@@ -23,6 +23,10 @@
     },
     "start_date": {
       "type": "string"
+    },
+    "email_sended": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
