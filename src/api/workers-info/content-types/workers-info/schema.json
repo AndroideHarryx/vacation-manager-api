@@ -27,6 +27,10 @@
     "email_sended": {
       "type": "boolean",
       "default": false
+    },
+    "on_vacation": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
