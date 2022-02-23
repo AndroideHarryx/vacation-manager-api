@@ -26,7 +26,8 @@ function analizeWorker(worker) {
     if (diffDays >= 330) {
 
       sendNotification("Buenos dias", "hay compañeros con derecho a vacaciones");
-
+      break
+      
     } else {
       console.log("algo paso hina!");
     }

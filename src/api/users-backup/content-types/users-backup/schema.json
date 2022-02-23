@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "users_backups",
+  "info": {
+    "singularName": "users-backup",
+    "pluralName": "users-backups",
+    "displayName": "users-backup"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "user_email": {
+      "type": "email"
+    },
+    "token_app": {
+      "type": "string"
+    }
+  }
+}
