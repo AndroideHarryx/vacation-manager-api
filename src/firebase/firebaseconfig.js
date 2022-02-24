@@ -4,8 +4,6 @@ require('dotenv').config()
 //const credential = require("./credenciales-fbnoti.json")
 const credential = JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS)
 
-console.log('credentials...' + process.env.GOOGLE_APPLICATION_CREDENTIALS)
-
 admin.initializeApp({
     credential: admin.credential.cert(credential),
     projectId: 'vacation-manager-fbnoti'
