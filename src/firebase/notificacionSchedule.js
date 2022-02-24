@@ -6,7 +6,7 @@ const { analizeWorker } = require('../logic');
 function initSchedule() {
 
   // At 15 minutes past the hour, every 24 hours, between 08:00 AM and 10:59 AM
-  cron.schedule("15 8-10/24 * * *", () => {
+  cron.schedule("15 8-10 * * *", () => {
   // cron.schedule("* * * * *", () => {
     console.log("entra en lib cron!")
     findCustom()
