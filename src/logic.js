@@ -12,7 +12,7 @@ function analizeWorker(worker) {
     var dateWorker = worker[i].start_date.split('-')
     console.log('dateworker: ' + dateWorker)
 
-    var dateseted = dateWorker[1] + '/' + dateWorker[0] + '/' + dateWorker[2];
+    var dateseted = dateWorker[0] + '/' + dateWorker[1] + '/' + dateWorker[2];
     console.log('dateseted: ' + dateseted)
 
     const date1 = new Date(dateseted);
